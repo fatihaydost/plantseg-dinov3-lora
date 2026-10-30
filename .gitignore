@@ -1,0 +1,16 @@
+# Data and weights are not tracked (README §12)
+*.pt
+*.pth
+*.ckpt
+*.safetensors
+veri/
+data/
+ckpt/
+model/
+*.tar
+*.zip
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+kaggle.json
+.env

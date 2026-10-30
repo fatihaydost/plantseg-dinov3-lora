@@ -1,0 +1,3 @@
+{"bb": "dinov2_b", "mode": "frozen", "iters": 8000, "bs": 2, "accum": 4, "crop": 512, "lr": 0.0002, "bb_lr_mult": 0.1, "seed": 0, "logit_adj": 0.0, "tag": "bench_dinov2_b_frozen", "eval_max": null, "bench": 100} trainable=10.33M
+it 50 loss 4.3831 lr 3.47e-05 0.229s/it mem 1.77G
+it 100 loss 4.1389 lr 6.67e-05 0.224s/it mem 1.77G

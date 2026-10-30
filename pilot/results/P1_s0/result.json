@@ -1,0 +1,17 @@
+{
+ "mIoU": 17.80111384241903,
+ "mAcc": 28.01279272094491,
+ "aAcc": 84.91348802621243,
+ "n_img": 846,
+ "tag": "P1_s0",
+ "bb": "dinov3_b",
+ "mode": "frozen",
+ "seed": 0,
+ "iters": 16000,
+ "logit_adj": 0.0,
+ "train_min": 50.40138742526372,
+ "eval_min": 1.4174184560775758,
+ "trainable_M": 10.327284,
+ "peak_mem_G": 2.041320323944092,
+ "split": "dev (official validation)"
+}

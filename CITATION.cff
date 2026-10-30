@@ -1,0 +1,21 @@
+cff-version: 1.2.0
+message: "If you use this code or the leakage lists, please cite it as below, together with the PlantSeg dataset."
+title: "Leakage-Aware Evaluation of DINOv3 with LoRA for Plant Disease Segmentation on PlantSeg"
+authors:
+  - family-names: Aydost
+    given-names: Fatih
+    affiliation: "Karabük University, Department of Software Engineering"
+date-released: 2026-10-31
+license: MIT
+repository-code: "https://github.com/fatihaydost/plantseg-dinov3-lora"
+references:
+  - type: article
+    title: "A Large-Scale In-the-wild Dataset for Plant Disease Segmentation"
+    authors:
+      - family-names: Wei
+        given-names: Tianqi
+    journal: "Scientific Data"
+    volume: 13
+    start: 205
+    year: 2026
+    doi: 10.1038/s41597-025-06513-4

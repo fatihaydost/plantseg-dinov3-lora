@@ -1,0 +1,7 @@
+{"bb": "convnext_t", "mode": "full", "iters": 8000, "bs": 2, "accum": 4, "crop": 512, "lr": 0.0002, "bb_lr_mult": 0.1, "seed": 0, "logit_adj": 0.0, "tag": "bench_cnx", "eval_max": null, "bench": 300} trainable=37.07M
+it 50 loss 4.3737 lr 3.47e-05 0.271s/it mem 2.37G
+it 100 loss 4.7589 lr 6.67e-05 0.228s/it mem 2.37G
+it 150 loss 4.1342 lr 1.01e-04 0.214s/it mem 2.37G
+it 200 loss 3.5122 lr 1.33e-04 0.207s/it mem 2.37G
+it 250 loss 3.0659 lr 1.68e-04 0.203s/it mem 2.37G
+it 300 loss 3.6922 lr 2.00e-04 0.200s/it mem 2.37G

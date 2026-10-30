@@ -1,0 +1,63 @@
+{
+ "pairs": 244,
+ "category": {
+  "same_plant_diff_disease": 94,
+  "host_conflict": 97,
+  "same_species_diff_name": 53
+ },
+ "category_hamming0": {
+  "host_conflict": 86,
+  "same_plant_diff_disease": 85,
+  "same_species_diff_name": 45
+ },
+ "host_conflict_split_pairs": {
+  "train↔train": 46,
+  "test↔train": 26,
+  "train↔val": 12,
+  "test↔val": 8,
+  "test↔test": 5
+ },
+ "host_conflict_images": 168,
+ "most_common_species_pairs": [
+  [
+   "Cucumis sativus",
+   "Cucurbita pepo",
+   26
+  ],
+  [
+   "Oryza sativa",
+   "Zingiber officinale",
+   10
+  ],
+  [
+   "Solanum lycopersicum",
+   "Solanum tuberosum",
+   9
+  ],
+  [
+   "Glycine max",
+   "Phaseolus vulgaris",
+   5
+  ],
+  [
+   "Solanum lycopersicum",
+   "Solanum melongena",
+   5
+  ],
+  [
+   "Capsicum annuum",
+   "Glycine max",
+   4
+  ],
+  [
+   "Brassica oleracea",
+   "Nicotiana tabacum",
+   4
+  ],
+  [
+   "Allium sativum",
+   "Triticum aestivum",
+   4
+  ]
+ ]
+}

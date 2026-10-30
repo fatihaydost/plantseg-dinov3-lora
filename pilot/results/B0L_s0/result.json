@@ -1,0 +1,17 @@
+{
+ "mIoU": 18.665403323102694,
+ "mAcc": 27.157936423780566,
+ "aAcc": 85.52101614820164,
+ "n_img": 846,
+ "tag": "B0L_s0",
+ "bb": "convnext_t",
+ "mode": "full",
+ "seed": 0,
+ "iters": 32000,
+ "logit_adj": 0.0,
+ "train_min": 107.78926392793656,
+ "eval_min": 1.3250200271606445,
+ "trainable_M": 37.070548,
+ "peak_mem_G": 2.3691282272338867,
+ "split": "dev (official validation)"
+}

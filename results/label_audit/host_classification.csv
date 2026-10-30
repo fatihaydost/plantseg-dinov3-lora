@@ -1,0 +1,245 @@
+A,A_split,A_label,A_species,B,B_split,B_label,B_species,hamming,category
+apple_black_rot_1,train,Apple | apple black rot,Malus domestica,apple_scab_66,test,Apple | apple scab,Malus domestica,2,same_plant_diff_disease
+apple_black_rot_80,train,Apple | apple black rot,Malus domestica,grape_black_rot_42,train,Grape | grape black rot,Vitis vinifera,0,host_conflict
+apple_rust_162,train,Apple | apple rust,Malus domestica,apple_scab_76,train,Apple | apple scab,Malus domestica,0,same_plant_diff_disease
+apple_rust_30,train,Apple | apple rust,Malus domestica,apple_scab_33,train,Apple | apple scab,Malus domestica,0,same_plant_diff_disease
+apple_rust_78,train,Apple | apple rust,Malus domestica,apple_scab_65,train,Apple | apple scab,Malus domestica,0,same_plant_diff_disease
+banana_black_leaf_streak_Baidu_0039,train,Banana | banana black leaf streak,Musa spp.,banana_panama_disease_5,train,Banana | banana panama disease,Musa spp.,0,same_plant_diff_disease
+banana_black_leaf_streak_Bing_0136,train,Banana | banana black leaf streak,Musa spp.,banana_cordana_leaf_spot_Bing_0008,train,Banana | banana cordana leaf spot,Musa spp.,0,same_plant_diff_disease
+banana_black_leaf_streak_banana black sigatoka (102),train,Banana | banana black leaf streak,Musa spp.,banana_panama_disease_5,train,Banana | banana panama disease,Musa spp.,0,same_plant_diff_disease
+banana_panama_disease_google_0062,train,Banana | banana panama disease,Musa spp.,banana_black_leaf_streak_banana black sigatoka (15),val,Banana | banana black leaf streak,Musa spp.,0,same_plant_diff_disease
+bean_halo_blight_google_0032,train,Bean | bean halo blight,Phaseolus vulgaris,grape_leaf_spot_google_0060,train,Grape | grape leaf spot,Vitis vinifera,0,host_conflict
+bean_halo_blight_google_0032,train,Bean | bean halo blight,Phaseolus vulgaris,potato_early_blight_google_0071,train,Potato | potato early blight,Solanum tuberosum,0,host_conflict
+bean_halo_blight_google_0078,train,Bean | bean halo blight,Phaseolus vulgaris,potato_early_blight_google_0215,train,Potato | potato early blight,Solanum tuberosum,0,host_conflict
+bean_rust_182,train,Bean | bean rust,Phaseolus vulgaris,soybean_rust_Baidu_0072,train,Soybean | soybean rust,Glycine max,0,host_conflict
+bean_rust_202,train,Bean | bean rust,Phaseolus vulgaris,soybean_rust_Baidu_0045,train,Soybean | soybean rust,Glycine max,2,host_conflict
+bean_rust_4,train,Bean | bean rust,Phaseolus vulgaris,soybean_rust_Baidu_0002,train,Soybean | soybean rust,Glycine max,0,host_conflict
+bean_rust_41,train,Bean | bean rust,Phaseolus vulgaris,soybean_rust_Baidu_0035,train,Soybean | soybean rust,Glycine max,0,host_conflict
+bean_rust_52,train,Bean | bean rust,Phaseolus vulgaris,soybean_rust_Baidu_0058,train,Soybean | soybean rust,Glycine max,2,host_conflict
+bell_pepper_bacterial_spot_Google_0050,train,Bell pepper | bell pepper bacterial spot,Capsicum annuum,bell_pepper_frogeye_leaf_spot_Google_0019,test,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,0,same_plant_diff_disease
+bell_pepper_frogeye_leaf_spot_Bing_0010,train,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,tobacco_frogeye_leaf_spot_Bing_0005,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,0,host_conflict
+bell_pepper_frogeye_leaf_spot_Bing_0011,train,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,bell_pepper_bacterial_spot_Bing_0002,test,Bell pepper | bell pepper bacterial spot,Capsicum annuum,0,same_plant_diff_disease
+bell_pepper_frogeye_leaf_spot_Bing_0016,train,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,soybean_frog_eye_leaf_spot_Bing_0009,train,Soybean | soybean frog eye leaf spot,Glycine max,0,host_conflict
+bell_pepper_frogeye_leaf_spot_Bing_0036,train,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,soybean_frog_eye_leaf_spot_Bing_0154,train,Soybean | soybean frog eye leaf spot,Glycine max,0,host_conflict
+bell_pepper_frogeye_leaf_spot_Bing_0183,train,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,tobacco_frogeye_leaf_spot_Bing_0274,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,0,host_conflict
+blueberry_anthracnose_Bing_0037,train,Blueberry | blueberry anthracnose,Vaccinium spp.,blueberry_rust_google_0127,train,Blueberry | blueberry rust,Vaccinium spp.,0,same_plant_diff_disease
+broccoli_alternaria_leaf_spot_Bing_0005,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0001,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0005,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0000,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0005,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0008,val,Broccoli | broccoli ring spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_alternaria_leaf_spot_Bing_0012,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0054,train,Broccoli | broccoli ring spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_alternaria_leaf_spot_Bing_0012,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0001,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0012,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0000,val,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0017,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,tobacco_brown_spot_Bing_0003,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,host_conflict
+broccoli_alternaria_leaf_spot_Bing_0017,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,tobacco_brown_spot_Bing_0044,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,host_conflict
+broccoli_alternaria_leaf_spot_Bing_0039,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,tobacco_brown_spot_Bing_0003,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,host_conflict
+broccoli_alternaria_leaf_spot_Bing_0039,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,tobacco_brown_spot_Bing_0044,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,host_conflict
+broccoli_alternaria_leaf_spot_Bing_0042,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0065,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,2,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0061,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0004,val,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0081,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0002,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0081,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0011,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0091,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0094,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0158,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0037,train,Broccoli | broccoli ring spot,Brassica oleracea,2,same_plant_diff_disease
+broccoli_alternaria_leaf_spot_Bing_0158,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0004,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,2,same_species_diff_name
+broccoli_alternaria_leaf_spot_Google_0007,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0001,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Google_0007,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0000,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Google_0007,train,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0008,val,Broccoli | broccoli ring spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_downy_mildew_google_0041,train,Broccoli | broccoli downy mildew,Brassica oleracea,cabbage_downy_mildew_Bing_0021,train,Cabbage | cabbage downy mildew,Brassica oleracea,0,same_species_diff_name
+broccoli_downy_mildew_google_0056,train,Broccoli | broccoli downy mildew,Brassica oleracea,lettuce_downy_mildew_google_0002,train,Lettuce | lettuce downy mildew,Lactuca sativa,0,host_conflict
+broccoli_ring_spot_Bing_0010,train,Broccoli | broccoli ring spot,Brassica oleracea,broccoli_alternaria_leaf_spot_Bing_0037,val,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_ring_spot_Bing_0024,train,Broccoli | broccoli ring spot,Brassica oleracea,broccoli_alternaria_leaf_spot_Bing_0060,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_ring_spot_Bing_0037,train,Broccoli | broccoli ring spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0004,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_ring_spot_Bing_0054,train,Broccoli | broccoli ring spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0001,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_ring_spot_Bing_0054,train,Broccoli | broccoli ring spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0000,val,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_ring_spot_Bing_0054,train,Broccoli | broccoli ring spot,Brassica oleracea,broccoli_alternaria_leaf_spot_Google_0005,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_ring_spot_Google_0006,train,Broccoli | broccoli ring spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0118,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0001,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0000,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0001,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0008,val,Broccoli | broccoli ring spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0002,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0011,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0013,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0028,test,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0072,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0051,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0075,train,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0061,test,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_downy_mildew_Bing_0177,train,Cabbage | cabbage downy mildew,Brassica oleracea,zucchini_downy_mildew_Bing_0114,train,Zucchini | zucchini downy mildew,Cucurbita pepo,0,host_conflict
+carrot_alternaria_leaf_blight_Bing_0001,train,Carrot | carrot alternaria leaf blight,Daucus carota,carrot_cercospora_leaf_blight_Bing_0059,val,Carrot | carrot cercospora leaf blight,Daucus carota,0,same_plant_diff_disease
+carrot_alternaria_leaf_blight_Bing_0178,train,Carrot | carrot alternaria leaf blight,Daucus carota,carrot_cercospora_leaf_blight_Bing_0011,train,Carrot | carrot cercospora leaf blight,Daucus carota,0,same_plant_diff_disease
+carrot_cercospora_leaf_blight_Bing_0016,train,Carrot | carrot cercospora leaf blight,Daucus carota,carrot_alternaria_leaf_blight_Bing_0158,val,Carrot | carrot alternaria leaf blight,Daucus carota,0,same_plant_diff_disease
+cauliflower_alternaria_leaf_spot_google_0000,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0008,val,Broccoli | broccoli ring spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_alternaria_leaf_spot_google_0001,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0000,val,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_alternaria_leaf_spot_google_0001,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,broccoli_alternaria_leaf_spot_Google_0005,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_alternaria_leaf_spot_google_0021,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0026,test,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_alternaria_leaf_spot_google_0038,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cauliflower_bacterial_soft_rot_Bing_0001,train,Cauliflower | cauliflower bacterial soft rot,Brassica oleracea,0,same_plant_diff_disease
+cauliflower_alternaria_leaf_spot_google_0038,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cauliflower_bacterial_soft_rot_Bing_0036,train,Cauliflower | cauliflower bacterial soft rot,Brassica oleracea,0,same_plant_diff_disease
+cauliflower_alternaria_leaf_spot_google_0056,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,grape_leaf_spot_google_0036,val,Grape | grape leaf spot,Vitis vinifera,0,host_conflict
+cauliflower_alternaria_leaf_spot_google_0056,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,eggplant_cercospora_leaf_spot_google_0030,test,Eggplant | eggplant cercospora leaf spot,Solanum melongena,0,host_conflict
+cauliflower_alternaria_leaf_spot_google_0056,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,tomato_bacterial_leaf_spot_google_0087,test,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,host_conflict
+cauliflower_alternaria_leaf_spot_google_0091,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cauliflower_bacterial_soft_rot_Bing_0044,train,Cauliflower | cauliflower bacterial soft rot,Brassica oleracea,0,same_plant_diff_disease
+cauliflower_alternaria_leaf_spot_google_0091,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cauliflower_bacterial_soft_rot_Bing_0021,test,Cauliflower | cauliflower bacterial soft rot,Brassica oleracea,0,same_plant_diff_disease
+cauliflower_alternaria_leaf_spot_google_0097,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0018,test,Broccoli | broccoli ring spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_alternaria_leaf_spot_google_0230,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0148,test,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_alternaria_leaf_spot_google_0234,train,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0206,test,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cauliflower_bacterial_soft_rot_Google_0186,train,Cauliflower | cauliflower bacterial soft rot,Brassica oleracea,broccoli_alternaria_leaf_spot_Google_0042,val,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+celery_early_blight_google_0109,train,Celery | celery early blight,Apium graveolens,tomato_septoria_leaf_spot_google_0039,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,host_conflict
+coffee_berry_blotch_Bing_0008,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Google_0003,test,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0020,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0009,train,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0025,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Google_0011,train,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0025,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0008,val,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0047,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0002,train,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0052,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0000,train,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0057,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0036,test,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0125,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0002,train,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Bing_0129,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0010,train,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_berry_blotch_Google_0026,train,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Google_0003,test,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+coffee_brown_eye_spot_Bing_0000,train,Coffee | coffee brown eye spot,Coffea spp.,coffee_berry_blotch_Bing_0127,val,Coffee | coffee berry blotch,Coffea spp.,0,same_plant_diff_disease
+coffee_brown_eye_spot_Bing_0000,train,Coffee | coffee brown eye spot,Coffea spp.,coffee_berry_blotch_Bing_0180,val,Coffee | coffee berry blotch,Coffea spp.,0,same_plant_diff_disease
+coffee_brown_eye_spot_Bing_0009,train,Coffee | coffee brown eye spot,Coffea spp.,coffee_berry_blotch_Bing_0117,test,Coffee | coffee berry blotch,Coffea spp.,0,same_plant_diff_disease
+cucumber_bacterial_wilt_google_0004,train,Cucumber | cucumber bacterial wilt,Cucumis sativus,zucchini_bacterial_wilt_Bing_0048,train,Zucchini | zucchini bacterial wilt,Cucurbita pepo,0,host_conflict
+cucumber_bacterial_wilt_google_0006,train,Cucumber | cucumber bacterial wilt,Cucumis sativus,zucchini_bacterial_wilt_Bing_0066,val,Zucchini | zucchini bacterial wilt,Cucurbita pepo,0,host_conflict
+cucumber_bacterial_wilt_google_0021,train,Cucumber | cucumber bacterial wilt,Cucumis sativus,zucchini_bacterial_wilt_Bing_0110,train,Zucchini | zucchini bacterial wilt,Cucurbita pepo,0,host_conflict
+cucumber_bacterial_wilt_google_0044,train,Cucumber | cucumber bacterial wilt,Cucumis sativus,zucchini_bacterial_wilt_Bing_0001,train,Zucchini | zucchini bacterial wilt,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_2,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_101,train,Squash | squash powdery mildew,Cucurbita pepo,4,host_conflict
+cucumber_powdery_mildew_google_0002,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_google_0007,train,Squash | squash powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0022,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_google_0329,train,Squash | squash powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0036,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_google_0191,test,Squash | squash powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0036,train,Cucumber | cucumber powdery mildew,Cucumis sativus,zucchini_powdery_mildew_Google_0045,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0060,train,Cucumber | cucumber powdery mildew,Cucumis sativus,zucchini_powdery_mildew_Bing_0329,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0061,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_google_0365,train,Squash | squash powdery mildew,Cucurbita pepo,4,host_conflict
+cucumber_powdery_mildew_google_0146,train,Cucumber | cucumber powdery mildew,Cucumis sativus,zucchini_powdery_mildew_Bing_0000,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0146,train,Cucumber | cucumber powdery mildew,Cucumis sativus,zucchini_powdery_mildew_Bing_0073,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,2,host_conflict
+cucumber_powdery_mildew_google_0164,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_google_0094,train,Squash | squash powdery mildew,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0181,train,Cucumber | cucumber powdery mildew,Cucumis sativus,squash_powdery_mildew_google_0176,train,Squash | squash powdery mildew,Cucurbita pepo,0,host_conflict
+eggplant_cercospora_leaf_spot_google_0053,train,Eggplant | eggplant cercospora leaf spot,Solanum melongena,tomato_septoria_leaf_spot_google_0007,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,host_conflict
+eggplant_cercospora_leaf_spot_google_0071,train,Eggplant | eggplant cercospora leaf spot,Solanum melongena,tomato_early_blight_google_0322,train,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+eggplant_cercospora_leaf_spot_google_0071,train,Eggplant | eggplant cercospora leaf spot,Solanum melongena,tomato_septoria_leaf_spot_google_0001,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,host_conflict
+eggplant_phomopsis_fruit_rot_Google_0009,train,Eggplant | eggplant phomopsis fruit rot,Solanum melongena,eggplant_phytophthora_blight_Google_0018,val,Eggplant | eggplant phytophthora blight,Solanum melongena,0,same_plant_diff_disease
+garlic_leaf_blight_google_0010,train,Garlic | garlic leaf blight,Allium sativum,celery_anthracnose_google_0035,test,Celery | celery anthracnose,Apium graveolens,0,host_conflict
+garlic_rust_74,train,Garlic | garlic rust,Allium sativum,wheat_stripe_rust_Baidu_0024,val,Wheat | wheat stripe rust,Triticum aestivum,0,host_conflict
+garlic_rust_google_0090,train,Garlic | garlic rust,Allium sativum,wheat_leaf_rust_Bing_0051,train,Wheat | wheat leaf rust,Triticum aestivum,0,host_conflict
+garlic_rust_google_0090,train,Garlic | garlic rust,Allium sativum,wheat_leaf_rust_Google_0263,train,Wheat | wheat leaf rust,Triticum aestivum,0,host_conflict
+ginger_sheath_blight_170,train,Ginger | ginger sheath blight,Zingiber officinale,rice_sheath_blight_138,train,Rice | rice sheath blight,Oryza sativa,0,host_conflict
+ginger_sheath_blight_26,train,Ginger | ginger sheath blight,Zingiber officinale,rice_sheath_blight_52,test,Rice | rice sheath blight,Oryza sativa,0,host_conflict
+ginger_sheath_blight_39,train,Ginger | ginger sheath blight,Zingiber officinale,rice_sheath_blight_48,train,Rice | rice sheath blight,Oryza sativa,0,host_conflict
+ginger_sheath_blight_google_0015,train,Ginger | ginger sheath blight,Zingiber officinale,rice_sheath_blight_google_0007,train,Rice | rice sheath blight,Oryza sativa,2,host_conflict
+ginger_sheath_blight_google_0020,train,Ginger | ginger sheath blight,Zingiber officinale,rice_sheath_blight_google_0000,test,Rice | rice sheath blight,Oryza sativa,0,host_conflict
+grape_downy_mildew_79,train,Grape | grape downy mildew,Vitis vinifera,grape_leaf_spot_1,train,Grape | grape leaf spot,Vitis vinifera,0,same_plant_diff_disease
+grape_downy_mildew_google_0079,train,Grape | grape downy mildew,Vitis vinifera,grape_leaf_spot_157,test,Grape | grape leaf spot,Vitis vinifera,0,same_plant_diff_disease
+grape_leaf_spot_google_0060,train,Grape | grape leaf spot,Vitis vinifera,potato_early_blight_google_0071,train,Potato | potato early blight,Solanum tuberosum,0,host_conflict
+grape_leaf_spot_google_0070,train,Grape | grape leaf spot,Vitis vinifera,maple_tar_spot_google_0067,train,Maple | maple tar spot,Acer spp.,0,host_conflict
+peach_brown_rot_Bing_0093,train,Peach | peach brown rot,Prunus persica,plum_brown_rot_Bing_0060,train,Plum | plum brown rot,Prunus domestica,0,host_conflict
+peach_brown_rot_Google_0260,train,Peach | peach brown rot,Prunus persica,plum_brown_rot_Bing_0079,test,Plum | plum brown rot,Prunus domestica,0,host_conflict
+plum_brown_rot_Google_0108,train,Plum | plum brown rot,Prunus domestica,peach_brown_rot_Google_0198,val,Peach | peach brown rot,Prunus persica,0,host_conflict
+potato_early_blight_55,train,Potato | potato early blight,Solanum tuberosum,potato_late_blight_10,train,Potato | potato late blight,Solanum tuberosum,0,same_plant_diff_disease
+potato_early_blight_google_0005,train,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0044,train,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+potato_early_blight_google_0013,train,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0093,train,Tomato | tomato early blight,Solanum lycopersicum,4,host_conflict
+potato_early_blight_google_0055,train,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0120,train,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+potato_early_blight_google_0079,train,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0267,test,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+potato_early_blight_google_0116,train,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0271,train,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+potato_early_blight_google_0200,train,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0343,train,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+potato_early_blight_google_0284,train,Potato | potato early blight,Solanum tuberosum,potato_late_blight_google_0035,train,Potato | potato late blight,Solanum tuberosum,0,same_plant_diff_disease
+rice_sheath_blight_143,train,Rice | rice sheath blight,Oryza sativa,ginger_sheath_blight_161,test,Ginger | ginger sheath blight,Zingiber officinale,0,host_conflict
+rice_sheath_blight_20,train,Rice | rice sheath blight,Oryza sativa,ginger_sheath_blight_30,test,Ginger | ginger sheath blight,Zingiber officinale,0,host_conflict
+rice_sheath_blight_37,train,Rice | rice sheath blight,Oryza sativa,ginger_sheath_blight_13,test,Ginger | ginger sheath blight,Zingiber officinale,2,host_conflict
+rice_sheath_blight_96,train,Rice | rice sheath blight,Oryza sativa,ginger_sheath_blight_89,test,Ginger | ginger sheath blight,Zingiber officinale,4,host_conflict
+rice_sheath_blight_google_0028,train,Rice | rice sheath blight,Oryza sativa,ginger_sheath_blight_google_0007,test,Ginger | ginger sheath blight,Zingiber officinale,0,host_conflict
+soybean_bacterial_blight_Baidu_0033,train,Soybean | soybean bacterial blight,Glycine max,soybean_rust_Bing_0022,test,Soybean | soybean rust,Glycine max,4,same_plant_diff_disease
+soybean_bacterial_blight_Bing_0000,train,Soybean | soybean bacterial blight,Glycine max,soybean_brown_spot_Bing_0051,train,Soybean | soybean brown spot,Glycine max,0,same_plant_diff_disease
+soybean_bacterial_blight_Bing_0060,train,Soybean | soybean bacterial blight,Glycine max,tomato_bacterial_leaf_spot_google_0324,train,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,host_conflict
+soybean_bacterial_blight_Bing_0103,train,Soybean | soybean bacterial blight,Glycine max,soybean_brown_spot_Bing_0049,train,Soybean | soybean brown spot,Glycine max,0,same_plant_diff_disease
+soybean_brown_spot_Baidu_0031,train,Soybean | soybean brown spot,Glycine max,soybean_frog_eye_leaf_spot_Baidu_0012,test,Soybean | soybean frog eye leaf spot,Glycine max,0,same_plant_diff_disease
+soybean_brown_spot_Bing_0041,train,Soybean | soybean brown spot,Glycine max,soybean_bacterial_blight_Bing_0119,val,Soybean | soybean bacterial blight,Glycine max,0,same_plant_diff_disease
+soybean_brown_spot_Bing_0046,train,Soybean | soybean brown spot,Glycine max,soybean_bacterial_blight_Bing_0105,test,Soybean | soybean bacterial blight,Glycine max,0,same_plant_diff_disease
+soybean_brown_spot_Bing_0070,train,Soybean | soybean brown spot,Glycine max,soybean_bacterial_blight_Bing_0105,test,Soybean | soybean bacterial blight,Glycine max,0,same_plant_diff_disease
+soybean_frog_eye_leaf_spot_Bing_0181,train,Soybean | soybean frog eye leaf spot,Glycine max,tobacco_frogeye_leaf_spot_Bing_0037,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,2,host_conflict
+soybean_frog_eye_leaf_spot_Bing_0181,train,Soybean | soybean frog eye leaf spot,Glycine max,tobacco_frogeye_leaf_spot_Bing_0000,test,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,0,host_conflict
+soybean_frog_eye_leaf_spot_Bing_0217,train,Soybean | soybean frog eye leaf spot,Glycine max,bell_pepper_frogeye_leaf_spot_Bing_0007,val,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,0,host_conflict
+soybean_frog_eye_leaf_spot_Bing_0217,train,Soybean | soybean frog eye leaf spot,Glycine max,tobacco_frogeye_leaf_spot_Bing_0002,test,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,0,host_conflict
+squash_powdery_mildew_24,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0233,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,2,same_species_diff_name
+squash_powdery_mildew_google_0008,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0330,val,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0008,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0289,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0009,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0013,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,2,same_species_diff_name
+squash_powdery_mildew_google_0009,train,Squash | squash powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0046,val,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+squash_powdery_mildew_google_0028,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0343,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0039,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Google_0080,val,Zucchini | zucchini powdery mildew,Cucurbita pepo,2,same_species_diff_name
+squash_powdery_mildew_google_0059,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0112,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,2,same_species_diff_name
+squash_powdery_mildew_google_0059,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0143,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,2,same_species_diff_name
+squash_powdery_mildew_google_0066,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0054,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0192,train,Squash | squash powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0026,test,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+squash_powdery_mildew_google_0285,train,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Bing_0084,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0312,train,Squash | squash powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0088,val,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+tobacco_blue_mold_Bing_0100,train,Tobacco | tobacco blue mold,Nicotiana tabacum,tobacco_frogeye_leaf_spot_Google_0032,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,2,same_plant_diff_disease
+tobacco_blue_mold_Bing_0100,train,Tobacco | tobacco blue mold,Nicotiana tabacum,tobacco_brown_spot_Google_0029,test,Tobacco | tobacco brown spot,Nicotiana tabacum,2,same_plant_diff_disease
+tobacco_blue_mold_Google_0046,train,Tobacco | tobacco blue mold,Nicotiana tabacum,tobacco_brown_spot_Bing_0159,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,same_plant_diff_disease
+tobacco_brown_spot_Bing_0009,train,Tobacco | tobacco brown spot,Nicotiana tabacum,tobacco_frogeye_leaf_spot_Bing_0008,val,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,0,same_plant_diff_disease
+tobacco_brown_spot_Bing_0043,train,Tobacco | tobacco brown spot,Nicotiana tabacum,tobacco_frogeye_leaf_spot_Bing_0024,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,2,same_plant_diff_disease
+tobacco_frogeye_leaf_spot_Bing_0024,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,tobacco_brown_spot_Bing_0000,val,Tobacco | tobacco brown spot,Nicotiana tabacum,0,same_plant_diff_disease
+tobacco_frogeye_leaf_spot_Google_0032,train,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,tobacco_brown_spot_Google_0029,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,same_plant_diff_disease
+tobacco_mosaic_virus_19,train,Tobacco | tobacco mosaic virus,Nicotiana tabacum,tomato_mosaic_virus_33,test,Tomato | tomato mosaic virus,Solanum lycopersicum,0,host_conflict
+tomato_bacterial_leaf_spot_google_0017,train,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0113,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_bacterial_leaf_spot_google_0091,train,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0204,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_early_blight_210,train,Tomato | tomato early blight,Solanum lycopersicum,tomato_septoria_leaf_spot_243,test,Tomato | tomato septoria leaf spot,Solanum lycopersicum,2,same_plant_diff_disease
+tomato_early_blight_246,train,Tomato | tomato early blight,Solanum lycopersicum,potato_early_blight_41,val,Potato | potato early blight,Solanum tuberosum,0,host_conflict
+tomato_early_blight_google_0076,train,Tomato | tomato early blight,Solanum lycopersicum,potato_early_blight_google_0048,val,Potato | potato early blight,Solanum tuberosum,0,host_conflict
+tomato_early_blight_google_0223,train,Tomato | tomato early blight,Solanum lycopersicum,grape_leaf_spot_google_0030,val,Grape | grape leaf spot,Vitis vinifera,0,host_conflict
+tomato_early_blight_google_0260,train,Tomato | tomato early blight,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0205,test,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_early_blight_google_0322,train,Tomato | tomato early blight,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0001,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_early_blight_google_0347,train,Tomato | tomato early blight,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0070,test,Tomato | tomato septoria leaf spot,Solanum lycopersicum,4,same_plant_diff_disease
+tomato_mosaic_virus_13,train,Tomato | tomato mosaic virus,Solanum lycopersicum,tomato_yellow_leaf_curl_virus_4,test,Tomato | tomato yellow leaf curl virus,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_mosaic_virus_184,train,Tomato | tomato mosaic virus,Solanum lycopersicum,bean_mosaic_virus_30,test,Bean | bean mosaic virus,Phaseolus vulgaris,0,host_conflict
+tomato_mosaic_virus_2,train,Tomato | tomato mosaic virus,Solanum lycopersicum,tomato_yellow_leaf_curl_virus_1,train,Tomato | tomato yellow leaf curl virus,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_septoria_leaf_spot_174,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,tomato_bacterial_leaf_spot_78,test,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_septoria_leaf_spot_6,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,tomato_bacterial_leaf_spot_28,val,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_septoria_leaf_spot_google_0052,train,Tomato | tomato septoria leaf spot,Solanum lycopersicum,tomato_bacterial_leaf_spot_google_0163,test,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_yellow_leaf_curl_virus_11,train,Tomato | tomato yellow leaf curl virus,Solanum lycopersicum,tomato_mosaic_virus_1,val,Tomato | tomato mosaic virus,Solanum lycopersicum,0,same_plant_diff_disease
+wheat_bacterial_leaf_streak_(black_chaff)_Bing_0006,train,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,wheat_septoria_blotch_blotch (100),train,Wheat | wheat septoria blotch,Triticum aestivum,0,same_plant_diff_disease
+wheat_bacterial_leaf_streak_(black_chaff)_Bing_0006,train,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,wheat_septoria_blotch_blotch (22),test,Wheat | wheat septoria blotch,Triticum aestivum,0,same_plant_diff_disease
+wheat_bacterial_leaf_streak_(black_chaff)_Google_0363,train,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,wheat_septoria_blotch_Google_0174,test,Wheat | wheat septoria blotch,Triticum aestivum,0,same_plant_diff_disease
+wheat_head_scab_Google_0129,train,Wheat | wheat head scab,Triticum aestivum,wheat_loose_smut_Google_0377,train,Wheat | wheat loose smut,Triticum aestivum,0,same_plant_diff_disease
+wheat_leaf_rust_Baidu_0112,train,Wheat | wheat leaf rust,Triticum aestivum,wheat_septoria_blotch_blotch (126),train,Wheat | wheat septoria blotch,Triticum aestivum,0,same_plant_diff_disease
+wheat_leaf_rust_Bing_0009,train,Wheat | wheat leaf rust,Triticum aestivum,wheat_stripe_rust_Bing_0028,train,Wheat | wheat stripe rust,Triticum aestivum,0,same_plant_diff_disease
+wheat_leaf_rust_Google_0066,train,Wheat | wheat leaf rust,Triticum aestivum,wheat_stripe_rust_Google_0147,train,Wheat | wheat stripe rust,Triticum aestivum,0,same_plant_diff_disease
+wheat_leaf_rust_Google_0355,train,Wheat | wheat leaf rust,Triticum aestivum,wheat_stripe_rust_Bing_0247,val,Wheat | wheat stripe rust,Triticum aestivum,0,same_plant_diff_disease
+wheat_septoria_blotch_blotch (23),train,Wheat | wheat septoria blotch,Triticum aestivum,wheat_bacterial_leaf_streak_(black_chaff)_Bing_0002,val,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,0,same_plant_diff_disease
+wheat_septoria_blotch_blotch (82),train,Wheat | wheat septoria blotch,Triticum aestivum,wheat_bacterial_leaf_streak_(black_chaff)_Bing_0004,test,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,0,same_plant_diff_disease
+wheat_stripe_rust_Baidu_0129,train,Wheat | wheat stripe rust,Triticum aestivum,garlic_rust_98,test,Garlic | garlic rust,Allium sativum,0,host_conflict
+wheat_stripe_rust_Bing_0130,train,Wheat | wheat stripe rust,Triticum aestivum,wheat_bacterial_leaf_streak_(black_chaff)_black_chaff (25),test,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,0,same_plant_diff_disease
+wheat_stripe_rust_Google_0123,train,Wheat | wheat stripe rust,Triticum aestivum,wheat_leaf_rust_Google_0374,test,Wheat | wheat leaf rust,Triticum aestivum,0,same_plant_diff_disease
+zucchini_powdery_mildew_Bing_0013,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0046,val,Cucumber | cucumber powdery mildew,Cucumis sativus,2,host_conflict
+zucchini_powdery_mildew_Bing_0058,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,squash_powdery_mildew_google_0327,test,Squash | squash powdery mildew,Cucurbita pepo,0,same_species_diff_name
+zucchini_powdery_mildew_Bing_0086,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,squash_powdery_mildew_google_0079,test,Squash | squash powdery mildew,Cucurbita pepo,0,same_species_diff_name
+zucchini_powdery_mildew_Bing_0087,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,squash_powdery_mildew_google_0102,test,Squash | squash powdery mildew,Cucurbita pepo,0,same_species_diff_name
+zucchini_powdery_mildew_Bing_0135,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0056,val,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+zucchini_powdery_mildew_Bing_0175,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,squash_powdery_mildew_google_0006,test,Squash | squash powdery mildew,Cucurbita pepo,0,same_species_diff_name
+zucchini_powdery_mildew_Bing_0176,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,squash_powdery_mildew_17,test,Squash | squash powdery mildew,Cucurbita pepo,2,same_species_diff_name
+zucchini_powdery_mildew_Bing_0230,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0080,test,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+zucchini_powdery_mildew_Bing_0357,train,Zucchini | zucchini powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0080,test,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+banana_black_leaf_streak_Bing_0165,val,Banana | banana black leaf streak,Musa spp.,banana_cordana_leaf_spot_Bing_0097,val,Banana | banana cordana leaf spot,Musa spp.,0,same_plant_diff_disease
+bell_pepper_frogeye_leaf_spot_Bing_0007,val,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,tobacco_frogeye_leaf_spot_Bing_0002,test,Tobacco | tobacco frogeye leaf spot,Nicotiana tabacum,0,host_conflict
+broccoli_alternaria_leaf_spot_Bing_0087,val,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cabbage_alternaria_leaf_spot_google_0004,val,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+cabbage_alternaria_leaf_spot_google_0000,val,Cabbage | cabbage alternaria leaf spot,Brassica oleracea,broccoli_alternaria_leaf_spot_Google_0005,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+carrot_alternaria_leaf_blight_Bing_0146,val,Carrot | carrot alternaria leaf blight,Daucus carota,carrot_cercospora_leaf_blight_Bing_0059,val,Carrot | carrot cercospora leaf blight,Daucus carota,0,same_plant_diff_disease
+eggplant_phytophthora_blight_Bing_0005,val,Eggplant | eggplant phytophthora blight,Solanum melongena,eggplant_phomopsis_fruit_rot_Bing_0022,test,Eggplant | eggplant phomopsis fruit rot,Solanum melongena,0,same_plant_diff_disease
+grape_leaf_spot_google_0036,val,Grape | grape leaf spot,Vitis vinifera,eggplant_cercospora_leaf_spot_google_0030,test,Eggplant | eggplant cercospora leaf spot,Solanum melongena,0,host_conflict
+grape_leaf_spot_google_0036,val,Grape | grape leaf spot,Vitis vinifera,tomato_bacterial_leaf_spot_google_0087,test,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,host_conflict
+potato_early_blight_google_0100,val,Potato | potato early blight,Solanum tuberosum,tomato_early_blight_google_0041,test,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+squash_powdery_mildew_google_0014,val,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Google_0123,val,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0286,val,Squash | squash powdery mildew,Cucurbita pepo,cucumber_powdery_mildew_google_0001,test,Cucumber | cucumber powdery mildew,Cucumis sativus,0,host_conflict
+tomato_bacterial_leaf_spot_google_0066,val,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,plum_bacterial_spot_Google_0057,test,Plum | plum bacterial spot,Prunus domestica,0,host_conflict
+tomato_septoria_leaf_spot_1,val,Tomato | tomato septoria leaf spot,Solanum lycopersicum,eggplant_cercospora_leaf_spot_96,test,Eggplant | eggplant cercospora leaf spot,Solanum melongena,0,host_conflict
+wheat_septoria_blotch_Google_0212,val,Wheat | wheat septoria blotch,Triticum aestivum,wheat_bacterial_leaf_streak_(black_chaff)_Google_0141,test,Wheat | wheat bacterial leaf streak (black chaff),Triticum aestivum,0,same_plant_diff_disease
+zucchini_bacterial_wilt_Bing_0163,val,Zucchini | zucchini bacterial wilt,Cucurbita pepo,cucumber_bacterial_wilt_google_0076,test,Cucumber | cucumber bacterial wilt,Cucumis sativus,0,host_conflict
+apple_black_rot_18,test,Apple | apple black rot,Malus domestica,apple_rust_96,test,Apple | apple rust,Malus domestica,0,same_plant_diff_disease
+bell_pepper_frogeye_leaf_spot_Bing_0008,test,Bell pepper | bell pepper frogeye leaf spot,Capsicum annuum,soybean_frog_eye_leaf_spot_Bing_0003,test,Soybean | soybean frog eye leaf spot,Glycine max,0,host_conflict
+broccoli_alternaria_leaf_spot_Bing_0000,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0002,test,Broccoli | broccoli ring spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_alternaria_leaf_spot_Bing_0000,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0002,test,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+broccoli_alternaria_leaf_spot_Bing_0048,test,Broccoli | broccoli alternaria leaf spot,Brassica oleracea,broccoli_ring_spot_Bing_0047,test,Broccoli | broccoli ring spot,Brassica oleracea,0,same_plant_diff_disease
+broccoli_ring_spot_Bing_0002,test,Broccoli | broccoli ring spot,Brassica oleracea,cauliflower_alternaria_leaf_spot_google_0002,test,Cauliflower | cauliflower alternaria leaf spot,Brassica oleracea,0,same_species_diff_name
+coffee_berry_blotch_Bing_0006,test,Coffee | coffee berry blotch,Coffea spp.,coffee_brown_eye_spot_Bing_0036,test,Coffee | coffee brown eye spot,Coffea spp.,0,same_plant_diff_disease
+cucumber_bacterial_wilt_google_0020,test,Cucumber | cucumber bacterial wilt,Cucumis sativus,zucchini_bacterial_wilt_Bing_0170,test,Zucchini | zucchini bacterial wilt,Cucurbita pepo,0,host_conflict
+cucumber_powdery_mildew_google_0080,test,Cucumber | cucumber powdery mildew,Cucumis sativus,zucchini_powdery_mildew_Bing_0336,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,host_conflict
+eggplant_cercospora_leaf_spot_google_0030,test,Eggplant | eggplant cercospora leaf spot,Solanum melongena,tomato_bacterial_leaf_spot_google_0087,test,Tomato | tomato bacterial leaf spot,Solanum lycopersicum,0,host_conflict
+grape_leaf_spot_google_0046,test,Grape | grape leaf spot,Vitis vinifera,tomato_early_blight_google_0163,test,Tomato | tomato early blight,Solanum lycopersicum,0,host_conflict
+squash_powdery_mildew_google_0191,test,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Google_0045,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+squash_powdery_mildew_google_0196,test,Squash | squash powdery mildew,Cucurbita pepo,zucchini_powdery_mildew_Google_0118,test,Zucchini | zucchini powdery mildew,Cucurbita pepo,0,same_species_diff_name
+tobacco_blue_mold_Bing_0107,test,Tobacco | tobacco blue mold,Nicotiana tabacum,tobacco_brown_spot_Bing_0159,test,Tobacco | tobacco brown spot,Nicotiana tabacum,0,same_plant_diff_disease
+tomato_early_blight_google_0059,test,Tomato | tomato early blight,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0070,test,Tomato | tomato septoria leaf spot,Solanum lycopersicum,2,same_plant_diff_disease
+tomato_early_blight_google_0177,test,Tomato | tomato early blight,Solanum lycopersicum,tomato_septoria_leaf_spot_google_0081,test,Tomato | tomato septoria leaf spot,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_mosaic_virus_143,test,Tomato | tomato mosaic virus,Solanum lycopersicum,tomato_yellow_leaf_curl_virus_40,test,Tomato | tomato yellow leaf curl virus,Solanum lycopersicum,0,same_plant_diff_disease
+tomato_mosaic_virus_16,test,Tomato | tomato mosaic virus,Solanum lycopersicum,tomato_yellow_leaf_curl_virus_62,test,Tomato | tomato yellow leaf curl virus,Solanum lycopersicum,0,same_plant_diff_disease

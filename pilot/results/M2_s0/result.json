@@ -1,0 +1,17 @@
+{
+ "mIoU": 17.384529880995025,
+ "mAcc": 27.902962924656034,
+ "aAcc": 84.91598854081465,
+ "n_img": 846,
+ "tag": "M2_s0",
+ "bb": "dinov2_b",
+ "mode": "frozen",
+ "seed": 0,
+ "iters": 16000,
+ "logit_adj": 0.0,
+ "train_min": 61.91374183893204,
+ "eval_min": 1.5660766164461772,
+ "trainable_M": 10.327284,
+ "peak_mem_G": 2.07127046585083,
+ "split": "dev (official validation)"
+}

@@ -1,0 +1,9 @@
+# Training and test (Colab A100). torch is Colab's preinstalled build; each result JSON records the exact "torch" version.
+torch==2.11.0
+timm==1.0.30
+imagehash==4.3.2
+# Analysis (analysis/, CPU only). Last run with numpy 2.5.4, pillow 13.0.0, matplotlib 3.x.
+numpy
+pillow
+matplotlib
+pandas  # notebooks/03_results_analysis.ipynb only

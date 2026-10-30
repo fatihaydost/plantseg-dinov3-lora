@@ -1,0 +1,17 @@
+{
+ "mIoU": 19.948248010735153,
+ "mAcc": 56.55619570610653,
+ "aAcc": 57.6438997822627,
+ "n_img": 846,
+ "tag": "H2_s0",
+ "bb": "dinov3_b",
+ "mode": "lora",
+ "seed": 0,
+ "iters": 16000,
+ "logit_adj": 1.0,
+ "train_min": 77.25017660061518,
+ "eval_min": 1.465340832869212,
+ "trainable_M": 11.21202,
+ "peak_mem_G": 2.4270272254943848,
+ "split": "dev (official validation)"
+}

@@ -1,0 +1,62 @@
+{
+ "tau_ce": {
+  "mIoU": 41.06286236191246,
+  "mAcc": 53.161262019793696,
+  "aAcc": 89.18663052092369,
+  "mIoU_clean": 40.65,
+  "mIoU_head": 52.64,
+  "mIoU_mid": 38.45,
+  "mIoU_tail": 30.78,
+  "mIoU_small_lesion": 28.87,
+  "mIoU_large_lesion": 45.15,
+  "train_h": 1.826,
+  "tau": null,
+  "background_IoU": 90.925,
+  "mIoU_diff_CE": 0.0
+ },
+ "tau_025": {
+  "mIoU": 42.04732293071805,
+  "mAcc": 54.86221699253303,
+  "aAcc": 89.37798798767595,
+  "mIoU_clean": 41.6,
+  "mIoU_head": 51.84,
+  "mIoU_mid": 37.94,
+  "mIoU_tail": 35.06,
+  "mIoU_small_lesion": 27.77,
+  "mIoU_large_lesion": 45.02,
+  "train_h": 1.839,
+  "tau": 0.25,
+  "background_IoU": 91.111,
+  "mIoU_diff_CE": 0.98
+ },
+ "tau_050": {
+  "mIoU": 42.201807613813465,
+  "mAcc": 56.539939184775946,
+  "aAcc": 89.31572795096142,
+  "mIoU_clean": 42.03,
+  "mIoU_head": 51.88,
+  "mIoU_mid": 37.68,
+  "mIoU_tail": 35.92,
+  "mIoU_small_lesion": 27.68,
+  "mIoU_large_lesion": 45.03,
+  "train_h": 1.66,
+  "tau": 0.5,
+  "background_IoU": 91.074,
+  "mIoU_diff_CE": 1.14
+ },
+ "tau_100": {
+  "mIoU": 40.51874377443041,
+  "mAcc": 57.84498267521649,
+  "aAcc": 89.0156446448166,
+  "mIoU_clean": 40.18,
+  "mIoU_head": 51.24,
+  "mIoU_mid": 34.42,
+  "mIoU_tail": 34.73,
+  "mIoU_small_lesion": 27.9,
+  "mIoU_large_lesion": 42.48,
+  "train_h": 1.664,
+  "tau": 1.0,
+  "background_IoU": 90.796,
+  "mIoU_diff_CE": -0.54
+ }
+}

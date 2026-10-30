@@ -1,0 +1,800 @@
+{
+ "test": {
+  "h3": {
+   "n_classes": {
+    "head": 38,
+    "mid": 38,
+    "tail": 38,
+    "small": 107,
+    "large": 107,
+    "small∩large": 99
+   },
+   "diffs": {
+    "DINOv3 − ConvNeXt": {
+     "head": {
+      "point": 2.78,
+      "ci95": [
+       1.04,
+       4.46
+      ],
+      "p": 0.0008
+     },
+     "mid": {
+      "point": 6.45,
+      "ci95": [
+       4.48,
+       9.24
+      ],
+      "p": 0.0002
+     },
+     "tail": {
+      "point": 6.91,
+      "ci95": [
+       3.08,
+       11.61
+      ],
+      "p": 0.0002
+     },
+     "tail − head": {
+      "point": 4.14,
+      "ci95": [
+       0.08,
+       9.26
+      ],
+      "p": 0.0445
+     },
+     "small lesion": {
+      "point": 3.7,
+      "ci95": [
+       1.44,
+       4.97
+      ],
+      "p": 0.0258
+     },
+     "large lesion": {
+      "point": 6.27,
+      "ci95": [
+       3.75,
+       8.22
+      ],
+      "p": 0.0017
+     },
+     "small − large": {
+      "point": -1.15,
+      "ci95": [
+       -4.14,
+       1.86
+      ],
+      "p": 0.4617
+     }
+    },
+    "DINOv2 − ConvNeXt": {
+     "head": {
+      "point": 1.9,
+      "ci95": [
+       -0.21,
+       3.61
+      ],
+      "p": 0.0909
+     },
+     "mid": {
+      "point": 6.36,
+      "ci95": [
+       4.59,
+       9.44
+      ],
+      "p": 0.0002
+     },
+     "tail": {
+      "point": 10.07,
+      "ci95": [
+       7.38,
+       16.51
+      ],
+      "p": 0.0002
+     },
+     "tail − head": {
+      "point": 8.17,
+      "ci95": [
+       5.31,
+       14.4
+      ],
+      "p": 0.0002
+     },
+     "small lesion": {
+      "point": 4.05,
+      "ci95": [
+       1.46,
+       5.35
+      ],
+      "p": 0.0326
+     },
+     "large lesion": {
+      "point": 6.72,
+      "ci95": [
+       4.3,
+       9.27
+      ],
+      "p": 0.0002
+     },
+     "small − large": {
+      "point": -0.86,
+      "ci95": [
+       -4.64,
+       1.67
+      ],
+      "p": 0.3633
+     }
+    }
+   }
+  },
+  "class_accuracy": {
+   "accuracy": {
+    "dinov3": {
+     "point": 82.43,
+     "ci95": [
+      80.59,
+      84.09
+     ]
+    },
+    "cnx": {
+     "point": 79.63,
+     "ci95": [
+      77.73,
+      81.53
+     ]
+    },
+    "cnx_paper": {
+     "point": 79.88,
+     "ci95": [
+      77.83,
+      81.87
+     ]
+    },
+    "dinov2": {
+     "point": 81.42,
+     "ci95": [
+      79.44,
+      83.34
+     ]
+    }
+   },
+   "DINOv3 − ConvNeXt": {
+    "point": 2.8,
+    "ci95": [
+     1.6,
+     3.99
+    ],
+    "p": 0.0002
+   },
+   "DINOv2 − ConvNeXt": {
+    "point": 1.79,
+    "ci95": [
+     0.53,
+     3.12
+    ],
+    "p": 0.0034
+   }
+  },
+  "class_agnostic": {
+   "iou": {
+    "all": {
+     "dinov3": {
+      "point": 70.66,
+      "ci95": [
+       67.6,
+       73.37
+      ]
+     },
+     "cnx": {
+      "point": 67.02,
+      "ci95": [
+       63.97,
+       69.7
+      ]
+     },
+     "cnx_paper": {
+      "point": 68.69,
+      "ci95": [
+       65.78,
+       71.17
+      ]
+     },
+     "dinov2": {
+      "point": 71.01,
+      "ci95": [
+       67.84,
+       73.97
+      ]
+     }
+    },
+    "clean": {
+     "dinov3": {
+      "point": 69.89,
+      "ci95": [
+       66.52,
+       72.96
+      ]
+     },
+     "cnx": {
+      "point": 65.49,
+      "ci95": [
+       62.15,
+       68.34
+      ]
+     },
+     "cnx_paper": {
+      "point": 67.55,
+      "ci95": [
+       64.55,
+       70.25
+      ]
+     },
+     "dinov2": {
+      "point": 70.04,
+      "ci95": [
+       66.53,
+       73.51
+      ]
+     }
+    },
+    "leaked": {
+     "dinov3": {
+      "point": 74.16,
+      "ci95": [
+       66.46,
+       79.98
+      ]
+     },
+     "cnx": {
+      "point": 73.94,
+      "ci95": [
+       66.37,
+       79.78
+      ]
+     },
+     "cnx_paper": {
+      "point": 73.84,
+      "ci95": [
+       66.34,
+       79.77
+      ]
+     },
+     "dinov2": {
+      "point": 75.43,
+      "ci95": [
+       68.44,
+       80.73
+      ]
+     }
+    }
+   },
+   "diffs": {
+    "DINOv3 − ConvNeXt": {
+     "all": {
+      "point": 3.64,
+      "ci95": [
+       2.34,
+       5.92
+      ],
+      "p": 0.0002
+     },
+     "clean": {
+      "point": 4.39,
+      "ci95": [
+       2.72,
+       6.93
+      ],
+      "p": 0.0002
+     },
+     "leaked": {
+      "point": 0.22,
+      "ci95": [
+       -1.04,
+       1.86
+      ],
+      "p": 0.7399
+     }
+    },
+    "DINOv2 − ConvNeXt": {
+     "all": {
+      "point": 3.98,
+      "ci95": [
+       2.28,
+       6.7
+      ],
+      "p": 0.0002
+     },
+     "clean": {
+      "point": 4.55,
+      "ci95": [
+       2.38,
+       7.72
+      ],
+      "p": 0.0002
+     },
+     "leaked": {
+      "point": 1.49,
+      "ci95": [
+       0.23,
+       4.1
+      ],
+      "p": 0.0092
+     }
+    },
+    "DINOv3 − ConvNeXt (paper recipe)": {
+     "all": {
+      "point": 1.97,
+      "ci95": [
+       0.66,
+       3.9
+      ],
+      "p": 0.002
+     },
+     "clean": {
+      "point": 2.34,
+      "ci95": [
+       0.68,
+       4.57
+      ],
+      "p": 0.0049
+     },
+     "leaked": {
+      "point": 0.32,
+      "ci95": [
+       -1.06,
+       2.21
+      ],
+      "p": 0.647
+     }
+    }
+   }
+  }
+ },
+ "dev": {
+  "h3": {
+   "n_classes": {
+    "head": 38,
+    "mid": 38,
+    "tail": 38,
+    "small": 91,
+    "large": 98,
+    "small∩large": 74
+   },
+   "diffs": {
+    "DINOv3 − ConvNeXt": {
+     "head": {
+      "point": 3.09,
+      "ci95": [
+       0.52,
+       6.34
+      ],
+      "p": 0.0171
+     },
+     "mid": {
+      "point": 3.73,
+      "ci95": [
+       0.17,
+       6.0
+      ],
+      "p": 0.042
+     },
+     "tail": {
+      "point": 4.33,
+      "ci95": [
+       0.41,
+       7.7
+      ],
+      "p": 0.0269
+     },
+     "tail − head": {
+      "point": 1.24,
+      "ci95": [
+       -3.88,
+       5.31
+      ],
+      "p": 0.7297
+     },
+     "small lesion": {
+      "point": 3.93,
+      "ci95": [
+       1.53,
+       5.9
+      ],
+      "p": 0.0011
+     },
+     "large lesion": {
+      "point": 3.68,
+      "ci95": [
+       0.2,
+       5.32
+      ],
+      "p": 0.0347
+     },
+     "small − large": {
+      "point": 0.29,
+      "ci95": [
+       -3.01,
+       4.34
+      ],
+      "p": 0.7115
+     }
+    },
+    "DINOv2 − ConvNeXt": {
+     "head": {
+      "point": 3.07,
+      "ci95": [
+       1.22,
+       4.96
+      ],
+      "p": 0.0004
+     },
+     "mid": {
+      "point": 3.1,
+      "ci95": [
+       0.04,
+       5.51
+      ],
+      "p": 0.0497
+     },
+     "tail": {
+      "point": 1.26,
+      "ci95": [
+       -4.72,
+       4.15
+      ],
+      "p": 0.9624
+     },
+     "tail − head": {
+      "point": -1.81,
+      "ci95": [
+       -8.48,
+       1.2
+      ],
+      "p": 0.1581
+     },
+     "small lesion": {
+      "point": 3.73,
+      "ci95": [
+       1.31,
+       6.36
+      ],
+      "p": 0.003
+     },
+     "large lesion": {
+      "point": 2.77,
+      "ci95": [
+       -0.46,
+       4.03
+      ],
+      "p": 0.1887
+     },
+     "small − large": {
+      "point": 0.12,
+      "ci95": [
+       -3.03,
+       4.72
+      ],
+      "p": 0.5914
+     }
+    }
+   }
+  },
+  "class_accuracy": {
+   "accuracy": {
+    "dinov3": {
+     "point": 82.35,
+     "ci95": [
+      79.94,
+      84.71
+     ]
+    },
+    "cnx": {
+     "point": 81.17,
+     "ci95": [
+      78.61,
+      83.49
+     ]
+    },
+    "cnx_paper": {
+     "point": 79.67,
+     "ci95": [
+      76.71,
+      82.15
+     ]
+    },
+    "dinov2": {
+     "point": 81.68,
+     "ci95": [
+      79.08,
+      84.16
+     ]
+    }
+   },
+   "DINOv3 − ConvNeXt": {
+    "point": 1.18,
+    "ci95": [
+     -0.43,
+     2.88
+    ],
+    "p": 0.1562
+   },
+   "DINOv2 − ConvNeXt": {
+    "point": 0.51,
+    "ci95": [
+     -1.42,
+     2.4
+    ],
+    "p": 0.5894
+   }
+  }
+ },
+ "leakage": {
+  "hamming_threshold": 4,
+  "dev": {
+   "n": 846,
+   "leaked": 109,
+   "ratio": 12.9
+  },
+  "test": {
+   "n": 1561,
+   "dup_in_train": 193,
+   "dup_in_dev": 43,
+   "leaked_total": 225,
+   "ratio": 14.4
+  },
+  "duplicate_pairs": {
+   "same_class": 569,
+   "diff_class": 244
+  }
+ },
+ "label": {
+  "diff_class_duplicates": {
+   "pairs": 244,
+   "same_plant": 94,
+   "diff_plant": 150,
+   "images": 399,
+   "most_common": [
+    [
+     "squash powdery mildew",
+     "zucchini powdery mildew",
+     18
+    ],
+    [
+     "coffee berry blotch",
+     "coffee brown eye spot",
+     14
+    ],
+    [
+     "cucumber powdery mildew",
+     "squash powdery mildew",
+     11
+    ],
+    [
+     "ginger sheath blight",
+     "rice sheath blight",
+     10
+    ],
+    [
+     "broccoli alternaria leaf spot",
+     "cabbage alternaria leaf spot",
+     9
+    ],
+    [
+     "broccoli alternaria leaf spot",
+     "broccoli ring spot",
+     9
+    ],
+    [
+     "cabbage alternaria leaf spot",
+     "cauliflower alternaria leaf spot",
+     9
+    ],
+    [
+     "cucumber powdery mildew",
+     "zucchini powdery mildew",
+     9
+    ],
+    [
+     "potato early blight",
+     "tomato early blight",
+     9
+    ],
+    [
+     "broccoli alternaria leaf spot",
+     "cauliflower alternaria leaf spot",
+     7
+    ]
+   ],
+   "example": [
+    [
+     "apple_black_rot_1",
+     "apple_scab_66"
+    ],
+    [
+     "apple_black_rot_80",
+     "grape_black_rot_42"
+    ],
+    [
+     "apple_rust_162",
+     "apple_scab_76"
+    ],
+    [
+     "apple_rust_30",
+     "apple_scab_33"
+    ],
+    [
+     "apple_rust_78",
+     "apple_scab_65"
+    ],
+    [
+     "banana_black_leaf_streak_Baidu_0039",
+     "banana_panama_disease_5"
+    ],
+    [
+     "banana_black_leaf_streak_Bing_0136",
+     "banana_cordana_leaf_spot_Bing_0008"
+    ],
+    [
+     "banana_black_leaf_streak_banana black sigatoka (102)",
+     "banana_panama_disease_5"
+    ],
+    [
+     "banana_panama_disease_google_0062",
+     "banana_black_leaf_streak_banana black sigatoka (15)"
+    ],
+    [
+     "bean_halo_blight_google_0032",
+     "grape_leaf_spot_google_0060"
+    ],
+    [
+     "bean_halo_blight_google_0032",
+     "potato_early_blight_google_0071"
+    ],
+    [
+     "bean_halo_blight_google_0078",
+     "potato_early_blight_google_0215"
+    ],
+    [
+     "bean_rust_182",
+     "soybean_rust_Baidu_0072"
+    ],
+    [
+     "bean_rust_202",
+     "soybean_rust_Baidu_0045"
+    ],
+    [
+     "bean_rust_4",
+     "soybean_rust_Baidu_0002"
+    ],
+    [
+     "bean_rust_41",
+     "soybean_rust_Baidu_0035"
+    ],
+    [
+     "bean_rust_52",
+     "soybean_rust_Baidu_0058"
+    ],
+    [
+     "bell_pepper_bacterial_spot_Google_0050",
+     "bell_pepper_frogeye_leaf_spot_Google_0019"
+    ],
+    [
+     "bell_pepper_frogeye_leaf_spot_Bing_0010",
+     "tobacco_frogeye_leaf_spot_Bing_0005"
+    ],
+    [
+     "bell_pepper_frogeye_leaf_spot_Bing_0011",
+     "bell_pepper_bacterial_spot_Bing_0002"
+    ]
+   ]
+  },
+  "mask_ratio": {
+   "empty(<0.1%)": 5,
+   "near_full(>95%)": 50,
+   "within_class_outlier(|z|>3.5)": 83,
+   "example_empty": [
+    "cherry_leaf_spot_61",
+    "cherry_leaf_spot_google_0148",
+    "ginger_leaf_spot_6",
+    "ginger_sheath_blight_42",
+    "apple_black_rot_google_0001"
+   ],
+   "example_full": [
+    "banana_black_leaf_streak_Bing_0056",
+    "banana_black_leaf_streak_Bing_0166",
+    "banana_black_leaf_streak_banana black sigatoka (46)",
+    "banana_black_leaf_streak_banana black sigatoka (55)",
+    "banana_black_leaf_streak_banana black sigatoka (9)",
+    "banana_cordana_leaf_spot_Bing_0018",
+    "banana_cordana_leaf_spot_Bing_0197",
+    "bean_mosaic_virus_162",
+    "bean_rust_218",
+    "bean_rust_45"
+   ],
+   "example_outlier": [
+    "apple_black_rot_google_0001",
+    "apple_mosaic_virus_19",
+    "apple_mosaic_virus_21",
+    "apple_mosaic_virus_40",
+    "apple_mosaic_virus_47",
+    "apple_mosaic_virus_65",
+    "apple_mosaic_virus_57",
+    "banana_anthracnose_Baidu_0115",
+    "banana_black_leaf_streak_Baidu_0072",
+    "banana_black_leaf_streak_Baidu_0194",
+    "basil_downy_mildew_google_0005",
+    "basil_downy_mildew_google_0017",
+    "blueberry_scorch_Bing_0001",
+    "broccoli_ring_spot_Bing_0010",
+    "carrot_alternaria_leaf_blight_Bing_0032",
+    "carrot_cercospora_leaf_blight_Bing_0212",
+    "cauliflower_alternaria_leaf_spot_google_0234",
+    "cauliflower_bacterial_soft_rot_Bing_0205",
+    "cherry_leaf_spot_google_0148",
+    "coffee_berry_blotch_Bing_0005"
+   ]
+  },
+  "mask_meta_mismatch": {
+   "n": 8,
+   "list": [
+    {
+     "stem": "bean_mosaic_virus_23",
+     "meta": 13,
+     "mask": [
+      82
+     ]
+    },
+    {
+     "stem": "blueberry_mummy_berry_Bing_0058",
+     "meta": 21,
+     "mask": [
+      22
+     ]
+    },
+    {
+     "stem": "broccoli_alternaria_leaf_spot_Bing_0012",
+     "meta": 24,
+     "mask": [
+      25
+     ]
+    },
+    {
+     "stem": "broccoli_alternaria_leaf_spot_Bing_0035",
+     "meta": 24,
+     "mask": [
+      25
+     ]
+    },
+    {
+     "stem": "broccoli_alternaria_leaf_spot_Bing_0039",
+     "meta": 24,
+     "mask": [
+      25
+     ]
+    },
+    {
+     "stem": "cucumber_powdery_mildew_google_0067",
+     "meta": 51,
+     "mask": [
+      49
+     ]
+    },
+    {
+     "stem": "eggplant_phomopsis_fruit_rot_Bing_0015",
+     "meta": 53,
+     "mask": [
+      54
+     ]
+    },
+    {
+     "stem": "ginger_leaf_spot_17",
+     "meta": 57,
+     "mask": [
+      58
+     ]
+    }
+   ]
+  }
+ }
+}

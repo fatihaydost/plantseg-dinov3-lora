@@ -1,0 +1,18 @@
+{
+  "id": "fatihaydost11/plantseg-v3l-frozen-devam",
+  "title": "PlantSeg V3L Frozen Resume",
+  "code_file": "kernel.py",
+  "language": "python",
+  "kernel_type": "script",
+  "is_private": true,
+  "enable_gpu": true,
+  "enable_tpu": false,
+  "enable_internet": true,
+  "dataset_sources": [],
+  "competition_sources": [],
+  "kernel_sources": [
+    "fatihaydost11/plantseg-v3l-frozen"
+  ],
+  "model_sources": [],
+  "machine_shape": "NvidiaTeslaT4"
+}

@@ -1,0 +1,72 @@
+{
+ "baseline_paper": {
+  "model": "ConvNeXt-L UperNet",
+  "mIoU": 46.24,
+  "mAcc": 59.97,
+  "split": "test (paper, 40k iter x 16 batch)"
+ },
+ "baseline_reproduced": {
+  "model": "ConvNeXt-T IN-22k full fine-tuning + UperNet-lite, 512 crop",
+  "split": "dev (official validation, v7, 846)",
+  "16k_iter_2seeds": {
+   "mIoU_mean": 10.71,
+   "sd": 0.42,
+   "seeds": [
+    10.41,
+    11.0
+   ]
+  },
+  "32k_iter_1seed": {
+   "mIoU": 18.67
+  },
+  "within_pm2": false
+ },
+ "proposal_dev": {
+  "P1_dinov3_vitb_frozen_16k": {
+   "mIoU_mean": 18.2,
+   "sd": 0.56,
+   "seeds": [
+    17.8,
+    18.59
+   ]
+  },
+  "P2_dinov3_vitb_lora_16k": {
+   "mIoU_mean": 23.13,
+   "sd": 1.76,
+   "seeds": [
+    21.89,
+    24.38
+   ]
+  },
+  "M2_dinov2_vitb_frozen_16k": {
+   "mIoU": 17.38
+  },
+  "H2_P2_logit_adj_tau1_16k": {
+   "mIoU": 19.95,
+   "mAcc": 56.56,
+   "counterpart_P2_s0": {
+    "mIoU": 21.89,
+    "mAcc": 32.42
+   }
+  }
+ },
+ "delta": {
+  "prereg_delta": 2.0,
+  "P1_minus_B0_16k": 7.49,
+  "H1_prereg_decision": "HELD (equal iterations)",
+  "P1_16k_minus_B0L_32k": -0.47,
+  "P2_16k_minus_B0L_32k": 4.46,
+  "H2_minus_P2_s0": -1.94
+ },
+ "seed_group": {
+  "B0": 2,
+  "P1": 2,
+  "P2": 2,
+  "M2": 1,
+  "H2": 1,
+  "B0L": 1
+ },
+ "duration": "veri ~30 dk; GPU 10.10 21:40 - 11.10 10:08 (9 kosu, ~10.5 sa egitim, paylasimli); P1L yarida durduruldu",
+ "level": "E1 partial (baseline not reproduced) / E2 conditional",
+ "note": "Esit butcede donmus DINOv3 tabani gecmiyor (18.20 vs 18.67), LoRA geciyor (+4.5). Tum modeller ciddi az egitilmis (makale orneklerinin %5'i). Sizinti: dev %12.9, test %12.4 egitimde yakin kopya; 244 kopya cifti farkli sinif etiketli. H2 (logit ayari tau=1) kuyrugu aciyor ama arka plani bozuyor: mIoU -1.9, mAcc +24. Tam deney icin uzak GPU (~100 A100-saat tahmini) gerekli."
+}

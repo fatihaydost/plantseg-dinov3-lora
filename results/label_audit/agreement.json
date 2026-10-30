@@ -1,0 +1,33 @@
+{
+ "pairs": 60,
+ "agreement": 60,
+ "agreement_pct": 100.0,
+ "kappa": null,
+ "rater_human": {
+  "Y": 60
+ },
+ "rater_model": {
+  "Y": 60
+ },
+ "mismatched": [],
+ "cluster": 52,
+ "cluster_both_yes": 52,
+ "same_photo_rate_wilson95_lower": {
+  "pairs": 0.94,
+  "cluster": 0.931
+ },
+ "hamming": {
+  "0": {
+   "pairs": 32,
+   "both_yes": 32
+  },
+  "2": {
+   "pairs": 22,
+   "both_yes": 22
+  },
+  "4": {
+   "pairs": 6,
+   "both_yes": 6
+  }
+ }
+}
